@@ -1,5 +1,5 @@
 ---
-title: "ScaleADFG: Affordance-based Dexterous Functional Grasping via Scalable Dataset"
+title: "Learning Human-Like Functional Grasping for Multifinger Hands From Few Demonstrations"
 authors:
 - Wei Wei
 - Peng Wang
