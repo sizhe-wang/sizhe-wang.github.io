@@ -72,7 +72,7 @@ education:
   - area: BS
     institution: University of Science and Technology Beijing, China.
     date_start: 2018-09-01
-    date_end: 2022-06-31
+    date_end: 2022-06-30
     # summary: |
     #   GPA: 3.9/4.0
 
