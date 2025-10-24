@@ -1,7 +1,7 @@
 ---
 title: "ScaleADFG: Affordance-based Dexterous Functional Grasping via Scalable Dataset"
 authors:
-- Sizhe Wang
+- admin
 - Yifan Yang
 - Yongkang Luo
 - Daheng Li
