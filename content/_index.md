@@ -34,9 +34,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research focuses on Robotic Dexterous Grasping and Manipulation.
-
-        Welcome to reach out to collaborate 😃
+        My research focuses on robotic dexterous grasping and manipulation.
+        
+        I am always open to discussions and collaborations. You can reach me at wangsizhe2022@ia.ac.cn 😃.
     design:
       columns: '1'
   - block: collection
