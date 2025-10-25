@@ -18,16 +18,16 @@ publishDate: "2025-10-24T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Transactions on Robotics"
 publication_short: "T-RO"
 
-abstract: This article investigates the challenge of enabling multi-finger hands to perform human-like functional grasping for various intentions. However, accomplishing functional grasping in real robot hands present many challenges, including handling generalization ability for kinematically diverse robot hands, generating intention-conditioned grasps for a large variety of objects, and incomplete perception from a single-view camera. In this work, we first propose a six-step functional grasp synthesis algorithm based on fine-grained contact modeling. With the fine-grained contact-based optimization and learned dense shape correspondence, the algorithm is adaptable to various objects of the same category and a wide range of multi-finger hands using few demonstrations. Secondly, over 10K functional grasps are synthesized to train our neural network, named DexFG-Net, which generates intention-conditioned grasps based on reconstructed object. Extensive experiments in the simulation and physical grasps indicate that the grasp synthesis algorithm can produce human-like functional grasp with robust stability and  functionality, and the DexFG-Net can generate plausible and human-like intention-conditioned grasping postures for anthropomorphic hands. Project page and video demonstration is available at [https://v-wewei.github.io/sr_dexgrasp](https://v-wewei.github.io/sr\_dexgrasp).
+abstract: This article investigates the challenge of enabling multi-finger hands to perform human-like functional grasping for various intentions. However, accomplishing functional grasping in real robot hands present many challenges, including handling generalization ability for kinematically diverse robot hands, generating intention-conditioned grasps for a large variety of objects, and incomplete perception from a single-view camera. In this work, we first propose a six-step functional grasp synthesis algorithm based on fine-grained contact modeling. With the fine-grained contact-based optimization and learned dense shape correspondence, the algorithm is adaptable to various objects of the same category and a wide range of multi-finger hands using few demonstrations. Secondly, over 10K functional grasps are synthesized to train our neural network, named DexFG-Net, which generates intention-conditioned grasps based on reconstructed object. Extensive experiments in the simulation and physical grasps indicate that the grasp synthesis algorithm can produce human-like functional grasp with robust stability and  functionality, and the DexFG-Net can generate plausible and human-like intention-conditioned grasping postures for anthropomorphic hands. Project page and video demonstration is available at **[https://v-wewei.github.io/sr_dexgrasp](https://v-wewei.github.io/sr_dexgrasp)**.
 
 # Summary. An optional shortened abstract.
-summary:  Our work **DexFG** integrates fine-grained contact modeling and intention-conditioned learning to achieve generalizable, human-like functional grasping with diverse robot hands.
+summary:  Our work "DexFG" integrates fine-grained contact modeling and intention-conditioned learning to achieve generalizable, human-like functional grasping with diverse robot hands.
 
 tags:
 - Dexterous Functional Grasping
@@ -52,9 +52,9 @@ links:
 #   url: "#"
 # - type: source
 #   url: "#"
-# - type: video
-#   url: https://youtube.com
-# - type: custom
+- type: video
+  url: https://www.bilibili.com/video/BV1Pe411n7w6?share_source=copy_web
+- type: custom
   label: Project Page
   url: https://v-wewei.github.io/sr_dexgrasp
 

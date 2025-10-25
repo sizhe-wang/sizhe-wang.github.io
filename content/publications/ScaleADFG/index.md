@@ -20,16 +20,16 @@ publishDate: "2025-10-24T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Robotics and Automation Letters"
 publication_short: "RA-L"
 
-abstract: Dexterous functional tool-use grasping is essential for effective robotic manipulation of tools. However, existing approaches face significant challenges in efficiently constructing large-scale datasets and ensuring generalizability to everyday object scales. These issues primarily arise from size mismatches between robotic and human hands, and the diversity in real-world object scales. To address these limitations, we propose the **ScaleADFG** framework, which consists of a fully automated dataset construction pipeline and a lightweight grasp generation network. Our dataset introduce an affordance-based algorithm to synthesize diverse tool-use grasp configurations without expert demonstrations, allowing flexible object-hand size ratios and enabling large robotic hands (compared to human hands) to grasp everyday objects effectively. Additionally, we leverage pre-trained models to generate extensive 3D assets and facilitate efficient retrieval of object affordances. Our dataset comprising five object categories, each containing over 1,000 unique shapes with 15 scale variations. After filtering, the dataset includes over 60,000 grasps for each 2 dexterous robotic hands. On top of this dataset, we train a lightweight, single-stage grasp generation network with a notably simple loss design, eliminating the need for post-refinement. This demonstrates the critical importance of large-scale datasets and multi-scale object variant for effective training. Extensive experiments in simulation and on real robot confirm that the ScaleADFG framework exhibits strong adaptability to objects of varying scales, enhancing functional grasp stability, diversity, and generalizability. Moreover, our network exhibits effective zero-shot transfer to real-world objects.
+abstract: Dexterous functional tool-use grasping is essential for effective robotic manipulation of tools. However, existing approaches face significant challenges in efficiently constructing large-scale datasets and ensuring generalizability to everyday object scales. These issues primarily arise from size mismatches between robotic and human hands, and the diversity in real-world object scales. To address these limitations, we propose the **ScaleADFG** framework, which consists of a fully automated dataset construction pipeline and a lightweight grasp generation network. Our dataset introduce an affordance-based algorithm to synthesize diverse tool-use grasp configurations without expert demonstrations, allowing flexible object-hand size ratios and enabling large robotic hands (compared to human hands) to grasp everyday objects effectively. Additionally, we leverage pre-trained models to generate extensive 3D assets and facilitate efficient retrieval of object affordances. Our dataset comprising five object categories, each containing over 1,000 unique shapes with 15 scale variations. After filtering, the dataset includes over 60,000 grasps for each 2 dexterous robotic hands. On top of this dataset, we train a lightweight, single-stage grasp generation network with a notably simple loss design, eliminating the need for post-refinement. This demonstrates the critical importance of large-scale datasets and multi-scale object variant for effective training. Extensive experiments in simulation and on real robot confirm that the ScaleADFG framework exhibits strong adaptability to objects of varying scales, enhancing functional grasp stability, diversity, and generalizability. Moreover, our network exhibits effective zero-shot transfer to real-world objects. Project page is available at **[https://sizhe-wang.github.io/ScaleADFG_webpage](https://sizhe-wang.github.io/ScaleADFG_webpage)**.
 
 # Summary. An optional shortened abstract.
-summary:  Our work **ScaleADFG** bridges the scale gap between human and robotic hands through automated dataset synthesis and lightweight grasp generation, achieving robust and generalizable tool-use grasps.
+summary:  Our work "ScaleADFG" bridges the scale gap between human and robotic hands through automated dataset synthesis and lightweight grasp generation, achieving robust and generalizable tool-use grasps.
 
 tags:
 - Dexterous Functional Grasping
@@ -40,7 +40,7 @@ featured: true
 #   ids:
 #     arxiv: 1512.04133v1
 
-# links:
+links:
 # - type: preprint
 #   provider: arxiv
 #   id: 1512.04133v1
@@ -54,11 +54,11 @@ featured: true
 #   url: "#"
 # - type: source
 #   url: "#"
-# - type: video
-#   url: https://youtube.com
-# - type: custom
-#   label: Custom Link
-#   url: http://example.org
+- type: video
+  url: https://www.bilibili.com/video/BV1zLsfzCEPp?share_source=copy_web
+- type: custom
+  label: Project Page
+  url: https://sizhe-wang.github.io/ScaleADFG_webpage/
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
