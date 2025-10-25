@@ -120,21 +120,13 @@ sections:
   #       # Card background color (CSS class)
   #       css_class: 'bg-primary-300'
   #       css_style: ''
-  <!-- Default Statcounter code for My Personal Page
-https://sizhe-wang.github.io/ -->
+
 <script type="text/javascript">
-var sc_project=13178924; 
-var sc_invisible=1; 
-var sc_security="8bd1000d"; 
+  var sc_project=13178924; 
+  var sc_invisible=1; 
+  var sc_security="8bd1000d"; 
 </script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="web stats"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/13178924/0/8bd1000d/1/"
-alt="web stats"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="web stats"href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13178924/0/8bd1000d/1/" alt="web stats" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
 ---
